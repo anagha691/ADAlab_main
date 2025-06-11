@@ -6,7 +6,7 @@ int dist[MAX];
 int visited[MAX];
 int path[MAX];
 int source;
-void dijkstra(int n,int graph[MAX][MAX]);
+void  dijkstra(int n,int graph[MAX][MAX]);
 int minDistance(int n);
 void printShortest(int n);
 void printPath(int path[],int j);
